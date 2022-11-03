@@ -1,0 +1,77 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  min-height: 70px;
+  background-color: black;
+  align-items: center;
+  padding: 10px;
+}
+
+body{
+  color: white;
+  font-family: Oswald;
+  margin: 0%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-family: Oswald;
+}
+
+.logo-img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.text {
+  font-family: Oswald;
+  text-decoration: none;
+  color: aliceblue;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  bottom: 23px;
+}
+
+nav a{
+  padding-left: 5px;
+}
+
+@media (max-width:700px){
+  heder{
+    flex-direction: column;
+  }
+}
+
+input{
+  width: 100px;
+  transition: width .35s ease-in-out;
+  outline: none;
+  font-family:Oswald ;
+}
+
+input:focus {
+  width: 250px;
+  border: solid 2px white;
+}
+
+.remera{
+  position: absolute;
+  top: 100;
+}
+
+.imagenes{
+  justify-content: space-between;
+  display: flex;
+}
+
+body{
+  background-color: rgb(252, 233, 209);
+}
